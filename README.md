@@ -8,7 +8,7 @@ Input | Output
 ------------ | -------------
 ``` print("Hello, World!") ``` | Hello, World!
 
-Detecting value and data types of objects
+Detecting value and data types of objects:
 
 ```
 print(type("Hello, World!"))
@@ -20,7 +20,7 @@ print(type("""and this.""") )
 print(type('''and even this...''') )
 ```
 
-Double quoted strings can contain single quotes inside them
+Double quoted strings can contain single quotes inside them:
 
 ```
 print('''"Oh no", she exclaimed, "Ben's bike is broken!"''')
@@ -35,6 +35,38 @@ Triple quoted strings can even span multiple lines:
 print("""This message will span
 several lines
 of the text.""")
+```
+
+The print function can print any number of values as long as you separate them by commas:
+
+
+```
+print(42, 17, 56, 34, 11, 4.35, 32)
+print(3.4, "hello", 45)
+```
+
+Type conversion functions:
+
+```
+print(3.14, int(3.14))
+print(3.9999, int(3.9999))       # This doesn't round to the closest int
+print(3.0, int(3.0))
+print(-3.999, int(-3.999))        # Note that the result is closer to zero
+
+print("2345", int("2345"))        # Parse a string to produce an int
+print(17, int(17))                # int even works on integers
+print(int("23bottles"))
+```
+
+```
+print(float("123.45"))
+print(type(float("123.45")))
+```
+
+```
+print(str(17))
+print(str(123.45))
+print(type(str(123.45)))
 ```
 
 # Vocabulary

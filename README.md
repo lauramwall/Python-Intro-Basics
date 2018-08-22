@@ -2,14 +2,14 @@
 
 Examples are in no specific order. [Original open source book](http://interactivepython.org/runestone/static/thinkcspy/index.html).
 
-# 0
+# 1
 "Hello, World!" Test:
 
 Input | Output
 ------------ | -------------
 ``` print("Hello, World!") ``` | Hello, World!
 
-# 1
+# 2
 Detecting value and data types of objects:
 
 ```
@@ -22,7 +22,7 @@ print(type("""and this.""") )
 print(type('''and even this...''') )
 ```
 
-# 2
+# 3
 Double quoted strings can contain single quotes inside them:
 
 ```
@@ -31,7 +31,7 @@ print('This is a string.')
 print("""And so is this.""")
 ```
 
-# 3
+# 4
 Triple quoted strings can even span multiple lines:
 
 
@@ -41,7 +41,7 @@ several lines
 of the text.""")
 ```
 
-# 4
+# 5
 The print function can print any number of values as long as you separate them by commas:
 
 
@@ -50,7 +50,7 @@ print(42, 17, 56, 34, 11, 4.35, 32)
 print(3.4, "hello", 45)
 ```
 
-# 5
+# 6
 Type conversion functions:
 
 ```
@@ -75,7 +75,7 @@ print(str(123.45))
 print(type(str(123.45)))
 ```
 
-# 6
+# 7
 Assigning variables:
 
 ```
@@ -88,7 +88,7 @@ print(n)
 print(pi)
 ```
 
-# 7
+# 8
 Detecting values and data types of variables:
 
 ```
@@ -101,7 +101,7 @@ print(type(n))
 print(type(pi))
 ```
 
-# 8
+# 9
 ```len``` is a built-in Python function that returns the number of characters in a string:
 
 ```
@@ -116,7 +116,7 @@ print(x)
 print(y)
 ```
 
-# 9
+# 10
 Operators and operands *(The asterisk (\*) is the token for multiplication, and \*\* is the token for exponentiation)*:
 
 ```
@@ -134,7 +134,7 @@ remainder = 7 % 3
 print(remainder)
 ```
 
-# 10
+# 11
 Converting minutes to hours:
 
 ```
@@ -151,7 +151,7 @@ hours = minutes // 60
 print(hours)
 ```
 
-# 11
+# 12
 User input:
 
 ```
@@ -159,7 +159,7 @@ n = input("Please enter your name: ")
 print("Hello", n)
 ```
 
-# 12
+# 13
 Program to convert seconds to hours and minutes:
 
 ```

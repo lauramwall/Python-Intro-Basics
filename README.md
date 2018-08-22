@@ -107,7 +107,7 @@ print(x)
 print(y)
 ```
 
-Operators and operands *(The asterisk (\*) is the token for multiplication, and \*\* is the token for exponentiation)*
+Operators and operands *(The asterisk (\*) is the token for multiplication, and \*\* is the token for exponentiation)*:
 
 ```
 print(2 + 3)
@@ -115,6 +115,29 @@ print(2 - 3)
 print(2 * 3)
 print(2 ** 3)
 print(3 ** 2)
+```
+
+```
+quotient = 7 // 3     # This is the integer division operator
+print(quotient)
+remainder = 7 % 3
+print(remainder)
+```
+
+Converting minutes to hours:
+
+```
+minutes = 645
+hours = minutes / 60
+print(hours)
+```
+
+```
+print(7 / 4)
+print(7 // 4)
+minutes = 645
+hours = minutes // 60
+print(hours)
 ```
 
 # Python Keywords

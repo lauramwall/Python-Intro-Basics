@@ -188,7 +188,7 @@ Check your understanding:
 16 - 2 * 5 // 3 + 1
 ```
 
-Answer: 14 *(Using parentheses, the expression is evaluated as (2*5) first, then (10 // 3), then (16-3), and then (13+1))*
+Answer: 14 *(Using parentheses, the expression is evaluated as (2\*5) first, then (10 // 3), then (16-3), and then (13+1))*
 
 
 # Python Keywords

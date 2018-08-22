@@ -216,7 +216,7 @@ a = 3    # After executing this line, a and b are no longer equal
 print(a, b)
 ```
 
-Check your understanding (value of x and y):
+Check your understanding (Value of x and y):
 
 ```
 x = 15
@@ -238,7 +238,7 @@ print(x)
 
 Note: Before you can update a variable, you have to initialize it, usually with a simple assignment. In the above example, x was initialized to 6.
 
-Check your understanding (what is printed in the statement):
+Check your understanding (What is printed in the statement?):
 
 ```
 x = 12
@@ -249,6 +249,23 @@ print(x)
 ```
 
 Answer: 15 *(Starting with 12, subtract 3, than add 5, and finally add 1)*
+
+# 17
+Problem solving program to detect time:
+
+```
+current_time_str = input("What is the current time (in hours 0-23)?")
+wait_time_str = input("How many hours do you want to wait")
+
+current_time_int = int(current_time_str)
+wait_time_int = int(wait_time_str)
+
+final_time_int = current_time_int + wait_time_int
+
+final_answer = final_time_int % 24
+
+print("The time after waiting is: ", final_answer)
+```
 
 # Python Keywords
 *(Cannot be used as variable names)*

@@ -11,6 +11,28 @@ Detecting value and data types of objects
 ```
 print(type("Hello, World!"))
 print(type(17))
+print(type(3.2))
+print(type('This is a string.') )
+print(type("And so is this.") )
+print(type("""and this.""") )
+print(type('''and even this...''') )
+```
+
+Double quoted strings can contain single quotes inside them
+
+```
+print('''"Oh no", she exclaimed, "Ben's bike is broken!"''')
+print('This is a string.')
+print("""And so is this.""")
+```
+
+Triple quoted strings can even span multiple lines:
+
+
+```
+print("""This message will span
+several lines
+of the text.""")
 ```
 
 # Vocabulary

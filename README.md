@@ -1,6 +1,6 @@
 # Introduction to Python - Basics
 
-Examples are in no specific order. [Original open source book](http://interactivepython.org/runestone/static/thinkcspy/index.html)
+Examples are in no specific order. [Original open source book](http://interactivepython.org/runestone/static/thinkcspy/index.html).
 
 # 0
 "Hello, World!" Test

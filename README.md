@@ -238,6 +238,18 @@ print(x)
 
 Note: Before you can update a variable, you have to initialize it, usually with a simple assignment. In the above example, x was initialized to 6.
 
+Check your understanding (what is printed in the statement):
+
+```
+x = 12
+x = x - 3
+x = x + 5
+x = x + 1
+print(x)
+```
+
+Answer: 15 *(Starting with 12, subtract 3, than add 5, and finally add 1)*
+
 # Python Keywords
 *(Cannot be used as variable names)*
 

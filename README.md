@@ -1,5 +1,7 @@
 # Introduction to Python - Basics
 
+[Original open source book](http://interactivepython.org/runestone/static/thinkcspy/index.html)
+
 "Hello, World!" Test
 
 Input | Output

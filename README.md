@@ -196,7 +196,25 @@ Check your understanding:
 2 ** 2 ** 3 * 3
 ```
 
-Answer: 14 *(Exponentiation has precedence over multiplication, but its precedence goes from right to left! So 2 ** 3 is 8, 2 ** 8 is 256 and 256 * 3 is 768)*
+Answer: 768 *(Exponentiation has precedence over multiplication, but its precedence goes from right to left! So 2 ** 3 is 8, 2 ** 8 is 256 and 256 * 3 is 768)*
+
+# 15
+Reassignment of variables:
+
+```
+bruce = 5
+print(bruce)
+bruce = 7
+print(bruce)
+```
+
+```
+a = 5
+b = a    # After executing this line, a and b are now equal
+print(a, b)
+a = 3    # After executing this line, a and b are no longer equal
+print(a, b)
+```
 
 # Python Keywords
 *(Cannot be used as variable names)*

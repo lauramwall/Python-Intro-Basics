@@ -1,4 +1,4 @@
-# Python-Intro-Basics
+# Introduction to Python - Basics
 
 "Hello, World!" Test
 

@@ -11,7 +11,6 @@ Detecting value and data types of objects
 ```
 print(type("Hello, World!"))
 print(type(17))
-
 ```
 
 # Vocabulary

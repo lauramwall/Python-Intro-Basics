@@ -2,8 +2,16 @@
 
 "Hello, World!" Test
 
+Input | Output
+------------ | -------------
+``` print("Hello, World!") ``` | Hello, World!
+
+Detecting value and data types of objects
+
 ```
-print("Hello, World!")
+print(type("Hello, World!"))
+print(type(17))
+
 ```
 
 # Vocabulary

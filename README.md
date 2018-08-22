@@ -261,7 +261,7 @@ Answer: 15 *(Starting with 12, subtract 3, than add 5, and finally add 1)*
 | **pass** | **raise** | **return** | **try** | **while** | **with** |
 | **yield** | **True** | **False** | **None** |
 
-# Vocabulary
+# Vocabulary (Part 1)
 
 **activecode**<br />
     A unique interpreter environment that allows Python to be executed from within a web browser.<br /><br />
@@ -325,3 +325,62 @@ Answer: 15 *(Starting with 12, subtract 3, than add 5, and finally add 1)*
     An error in a program that makes it impossible to parse — and therefore impossible to interpret.<br /><br />
 **token**<br />
     One of the basic elements of the syntactic structure of a program, analogous to a word in a natural language. <br /><br />
+    
+# Vocabulary (Part 2)
+
+**assignment statement**<br />
+    A statement that assigns a value to a name (variable). To the left of the assignment operator, ```=```, is a name. To the right of the assignment token is an expression which is evaluated by the Python interpreter and then assigned to the name. The difference between the left and right hand sides of the assignment statement is often confusing to new programmers.<br /><br />
+**assignment token**<br />
+    ```=``` is Python’s assignment token, which should not be confused with the mathematical comparison operator using the same symbol.<br /><br />
+**class**<br />
+    See **data type** below.<br /><br />
+**comment**<br />
+    Information in a program that is meant for other programmers (or anyone reading the source code) and has no effect on the execution of the program.<br /><br />
+**data type**<br />
+    A set of values. The type of a value determines how it can be used in expressions. So far, the types you have seen are integers (```int```), floating-point numbers (```float```), and strings (```str```).<br /><br />
+**decrement**<br />
+    Decrease by 1.<br /><br />
+**evaluate**<br />
+    To simplify an expression by performing the operations in order to yield a single value.<br /><br />
+**expression**<br />
+    A combination of operators and operands (variables and values) that represents a single result value. Expressions are evaluated to give that result.<br /><br />
+**float**<br />
+    A Python data type which stores floating-point numbers. Floating-point numbers are stored internally in two parts: a base and an exponent. When printed in the standard format, they look like decimal numbers. Beware of rounding errors when you use ```float```s, and remember that they are only approximate values.<br /><br />
+**increment**<br />
+    Both as a noun and as a verb, increment means to increase by 1.<br /><br />
+**initialization** (of a variable)<br />
+    To initialize a variable is to give it an initial value. Since in Python variables don’t exist until they are assigned values, they are initialized when they are created. In other programming languages this is not the case, and variables can be created without being initialized, in which case they have either default or garbage values.<br /><br />
+**int**<br />
+    A Python data type that holds positive and negative **whole** numbers.<br /><br />
+**integer division**<br />
+    An operation that divides one integer by another and yields an integer. Integer division yields only the whole number of times that the numerator is divisible by the denominator and discards any remainder.<br /><br />
+**keyword**<br />
+    A reserved word that is used by the compiler to parse program; you cannot use keywords like ```if```, ```def```, and ```while``` as variable names.<br /><br />
+**modulus operator**<br />
+    Also called remainder operator or integer remainder operator. Gives the remainder after performing integer division.<br /><br />
+**object**<br />
+    Also known as a data object (or data value). The fundamental things that programs are designed to manipulate (or that programmers ask to do things for them).<br /><br />
+**operand**<br />
+    One of the values on which an operator operates.<br /><br />
+**operator**<br />
+    A special symbol that represents a simple computation like addition, multiplication, or string concatenation.<br /><br />
+**prompt string**<br />
+    Used during interactive input to provide the user with hints as to what type of value to enter.<br /><br />
+**reference diagram**<br />
+    A picture showing a variable with an arrow pointing to the value (object) that the variable refers to. See also state snapshot.<br /><br />
+**rules of precedence**<br />
+    The set of rules governing the order in which expressions involving multiple operators and operands are evaluated.
+**state snapshot**<br />
+    A graphical representation of a set of variables and the values to which they refer, taken at a particular instant during the program’s execution.<br /><br />
+**statement**<br />
+    An instruction that the Python interpreter can execute. So far we have only seen the assignment statement, but we will soon meet the ```import``` statement and the ```for``` statement.<br /><br />
+**str**<br />
+    A Python data type that holds a string of characters.<br /><br />
+**type conversion function**<br />
+    A function that can convert a data value from one type to another.<br /><br />
+**value**<br />
+    A number or string (or other things to be named later) that can be stored in a variable or computed in an expression.<br /><br />
+**variable**<br />
+    A name that refers to a value.<br /><br />
+**variable name**<br />
+    A name given to a variable. Variable names in Python consist of a sequence of letters (a..z, A..Z, and \_) and digits (0..9) that begins with a letter. In best programming practice, variable names should be chosen so that they describe their use in the program, making the program self documenting.<br /><br />

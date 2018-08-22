@@ -8,6 +8,7 @@ Input | Output
 ------------ | -------------
 ``` print("Hello, World!") ``` | Hello, World!
 
+# 1
 Detecting value and data types of objects:
 
 ```
@@ -20,6 +21,7 @@ print(type("""and this.""") )
 print(type('''and even this...''') )
 ```
 
+# 2
 Double quoted strings can contain single quotes inside them:
 
 ```
@@ -28,6 +30,7 @@ print('This is a string.')
 print("""And so is this.""")
 ```
 
+# 3
 Triple quoted strings can even span multiple lines:
 
 
@@ -37,6 +40,7 @@ several lines
 of the text.""")
 ```
 
+# 4
 The print function can print any number of values as long as you separate them by commas:
 
 
@@ -45,6 +49,7 @@ print(42, 17, 56, 34, 11, 4.35, 32)
 print(3.4, "hello", 45)
 ```
 
+# 5
 Type conversion functions:
 
 ```
@@ -69,6 +74,7 @@ print(str(123.45))
 print(type(str(123.45)))
 ```
 
+# 6
 Assigning variables:
 
 ```
@@ -81,6 +87,7 @@ print(n)
 print(pi)
 ```
 
+# 7
 Detecting values and data types of variables:
 
 ```
@@ -93,6 +100,7 @@ print(type(n))
 print(type(pi))
 ```
 
+# 8
 ```len``` is a built-in Python function that returns the number of characters in a string:
 
 ```
@@ -107,6 +115,7 @@ print(x)
 print(y)
 ```
 
+# 9
 Operators and operands *(The asterisk (\*) is the token for multiplication, and \*\* is the token for exponentiation)*:
 
 ```
@@ -124,6 +133,7 @@ remainder = 7 % 3
 print(remainder)
 ```
 
+# 10
 Converting minutes to hours:
 
 ```
@@ -140,6 +150,7 @@ hours = minutes // 60
 print(hours)
 ```
 
+# 11
 User input:
 
 ```
@@ -147,6 +158,7 @@ n = input("Please enter your name: ")
 print("Hello", n)
 ```
 
+# 12
 Program to convert seconds to hours and minutes:
 
 ```

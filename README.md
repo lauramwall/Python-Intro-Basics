@@ -6,7 +6,7 @@
 print("Hello, World!")
 ```
 
-**Vocabulary**
+# Vocabulary
 
 *activecode*<br />
     A unique interpreter environment that allows Python to be executed from within a web browser.<br /><br />

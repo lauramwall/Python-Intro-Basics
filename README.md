@@ -174,6 +174,22 @@ secs_finally_remaining = secs_still_remaining  % 60
 print("Hrs=", hours, "mins=", minutes, "secs=", secs_finally_remaining)
 ```
 
+# 14
+Rules of precedence (Order of operations):
+
+```
+print(2 ** 3 ** 2)     # The right-most ** operator gets done first
+print((2 ** 3) ** 2)   # Use parentheses to force the order you want
+```
+
+Check your understanding:
+
+```
+16 - 2 * 5 // 3 + 1
+```
+
+Answer: 14 *(Using parentheses, the expression is evaluated as (2*5) first, then (10 // 3), then (16-3), and then (13+1))*
+
 
 # Python Keywords
 *(Cannot be used as variable names)*

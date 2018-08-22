@@ -226,6 +226,18 @@ x = 22
 
 Answer: x is 22 and y is 15
 
+# 16
+Updating and reassigning variables:
+
+```
+x = 6        # Initialize x
+print(x)
+x = x + 1    # Update x
+print(x)
+```
+
+Note: Before you can update a variable, you have to initialize it, usually with a simple assignment. In the above example, x was initialized to 6.
+
 # Python Keywords
 *(Cannot be used as variable names)*
 

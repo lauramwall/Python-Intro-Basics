@@ -93,6 +93,30 @@ print(type(n))
 print(type(pi))
 ```
 
+```len``` is a built-in Python function that returns the number of characters in a string:
+
+```
+print(1 + 1)
+print(len("hello"))
+```
+
+```
+y = 3.14
+x = len("hello")
+print(x)
+print(y)
+```
+
+Operators and operands *(The asterisk (\*) is the token for multiplication, and \*\* is the token for exponentiation)*
+
+```
+print(2 + 3)
+print(2 - 3)
+print(2 * 3)
+print(2 ** 3)
+print(3 ** 2)
+```
+
 # Python Keywords
 *(Cannot be used as variable names)*
 

@@ -190,6 +190,13 @@ Check your understanding:
 
 Answer: 14 *(Using parentheses, the expression is evaluated as (2\*5) first, then (10 // 3), then (16-3), and then (13+1))*
 
+Check your understanding:
+
+```
+2 ** 2 ** 3 * 3
+```
+
+Answer: 14 *(Exponentiation has precedence over multiplication, but its precedence goes from right to left! So 2 ** 3 is 8, 2 ** 8 is 256 and 256 * 3 is 768)*
 
 # Python Keywords
 *(Cannot be used as variable names)*

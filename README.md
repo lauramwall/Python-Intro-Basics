@@ -69,6 +69,41 @@ print(str(123.45))
 print(type(str(123.45)))
 ```
 
+Assigning variables:
+
+```
+message = "What's up, Doc?"
+n = 17
+pi = 3.14159
+
+print(message)
+print(n)
+print(pi)
+```
+
+Detecting values and data types of variables:
+
+```
+message = "What's up, Doc?"
+n = 17
+pi = 3.14159
+
+print(type(message))
+print(type(n))
+print(type(pi))
+```
+
+# Python Keywords
+*(Cannot be used as variable names)*
+
+| and | as | assert | break | class | continue |
+| --- | --- | --- | --- | --- | --- |
+| **def** | **del** | **elif** | **else** | **except** | **exec** |
+| **finally** | **for** | **from | **global** | **if** | **import** |
+| **in** | **is** | **lambda** | **nonlocal** | **not** | **or** |
+| **pass** | **raise** | **return** | **try** | **while** | **with** |
+| **yield** | **True** | **False** | **None** |
+
 # Vocabulary
 
 **activecode**<br />

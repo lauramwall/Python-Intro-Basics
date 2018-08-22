@@ -216,6 +216,16 @@ a = 3    # After executing this line, a and b are no longer equal
 print(a, b)
 ```
 
+Check your understanding (value of x and y):
+
+```
+x = 15
+y = x
+x = 22
+```
+
+Answer: x is 22 and y is 15
+
 # Python Keywords
 *(Cannot be used as variable names)*
 

@@ -54,7 +54,7 @@ print("Hello, World!")
     A formal notation for representing solutions.<br /><br />
 *Python shell*<br />
     An interactive user interface to the Python interpreter. The user of a Python shell types commands at the prompt (>>>), and presses the return key to send these commands immediately to the interpreter for processing.<br /><br />
-runtime error
+*runtime error*<br />
     An error that does not occur until the program has started to execute but that prevents the program from continuing.<br /><br />
 *semantic error*<br />
     An error in a program that makes it do something other than what the programmer intended.<br /><br />
